@@ -1,0 +1,134 @@
+body {
+    background: #edead3;
+}
+
+*{
+    font-family: "Lucida Sans Unicode";
+}
+.header h2, .section #course-header{
+    padding: 25px 0 0 12px;
+    text-decoration: none;
+    font-size: 24px;
+    font-family: "Lucida Sans Unicode";
+    color:#eaef48c2;
+
+}
+.header p {
+    font-family: 'Oswald', sans-serif;
+    text-transform: uppercase;
+    font-weight: bold;
+    margin: 0;
+    padding-bottom: 25px;
+}
+
+.first-section h2{
+    text-decoration: none;
+    font-size: 24px;
+    font-family: "Lucida Sans Unicode";
+    color: black;
+}
+
+#header-image{
+    width: 500px;
+
+    padding:0 40px 0 0
+
+}
+
+.container{
+    width: 780px;
+   
+    margin:0 auto;
+    background: #FFF;
+}
+
+.header {
+    width: 776px;
+    height: 190px;
+
+    /*padding: 13px 0 12px 39px;*/
+    border: 2px solid black;
+    text-align: left;
+    background-image: url(../images/IT-Solutions.jpg);
+    background-size: contain;
+ 
+}
+
+.menu{
+    background: teal;
+    padding: 5px 0 5px 20px
+}
+
+.menu a {
+color: greenyellow;
+text-decoration: none;   
+font-size: 14px;
+font-family: "Segoe UI",Arial,sans-serif;
+text-transform: uppercase;
+font-weight: 500;
+padding-top: 4.8px ;
+padding-right: 10px ;
+padding-bottom: 5px ;
+padding-left: 10px 
+
+}
+
+.menu a:hover {
+    color: rgb(28, 245, 227);
+    background: #000;
+   
+}
+
+.main{
+    margin: 0 0 0 150px;
+    padding: 30px 40px 30px 0;
+    color: #444444;
+    font-size: 13px;
+    line-height: 2;
+    text-emphasis: inherit
+}
+
+footer{
+    padding: 6px 3px 3px 30px;
+    background: rgba(207, 206, 206, 0.973);
+    border-radius: 2px;
+    font-family: "Lucida Sans Unicode";
+    font-size: 12px;
+    text-decoration: underline;
+}
+
+/* CSS for COURSE page*/
+.section-header{
+    text-align: center;
+    text-decoration: underline;
+}
+.shop-item{
+    margin: 30px;
+}
+
+.shop-item-title{
+    display:block;
+    width:100%;
+    text-align: left;
+    font-weight: bold;
+    font-size: 1em;
+    color: #333333;
+    margin-bottom: 10px;
+}
+
+.shop-items-image {
+    height: 100px;
+    
+
+}
+.shop-item-details{
+    padding: 5px;
+}
+.shop-item-price {
+    padding-right: 2px;
+    font-weight: bold
+}
+.shop-items-all {
+    display: flex;
+    align-items: center;
+}
